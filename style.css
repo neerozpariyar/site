@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-image:url("Images/Almond.jpg");
+    width: 100%;
+
+    padding: 10px 0px;
+}
+
+nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 0 20px;
+}
+
+.menu .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 600px;
+}
+
+.menu ul{
+    display: inline-flex;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 7px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: 500px;
+    background-color: blueviolet;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a:hover{
+    background: #fff;
+    color: black;
+}
+
+.img{
+    background: url("Images/Gogh.png") no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+   
+}
